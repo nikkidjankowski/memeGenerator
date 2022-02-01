@@ -1,0 +1,24 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.meme {
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    color: white;
+    left: 8%;
+    top: 3%;
+    font-size: 160%;
+}
+
+.bottom {
+    position: absolute;
+    color: white;
+    left: 8%;
+    bottom: 3%;
+    font-size: 160%;
+}

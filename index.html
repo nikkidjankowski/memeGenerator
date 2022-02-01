@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meme</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Create Your Own Memes!</h1>
+    <div></div>
+    <section>
+    <form action="URL" id="newMemes">
+        <label for="image">Image Link:</label>
+        <input type="url" id="image" name="image">
+        <p>
+            <label for="topText">Top Text <b>(Optional):</b></label>
+            <input type="text" id="topText" name="topText">
+        </p>
+        <p>
+            <label for="bottomText">Bottom Text <b>(Optional):</b></label>
+            <input type="text" id="bottomText" name="bottomText">
+        </p>
+        <button>Add meme</button>
+    </form>
+</section>
+<section>
+    <h2>Memes You've Created Below!</h2>
+<div id="meme"></div>
+</section>
+    <script src="memeGen.js"></script>
+</body>
+</html>
